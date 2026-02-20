@@ -9,7 +9,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Inisialisasi Bot
-API_KEY = os.getenv("MOLTY_API_KEY", "")
+API_KEY = os.getenv("MOLTY_API_KEY", "mr_live_cYdz9i3MFUBFBho-KM4a3Qx_OuaL1eNK")
 BASE_URL = "https://mort-royal-production.up.railway.app/api"
 bot = MoltyBot(api_key=API_KEY, base_url=BASE_URL)
 
